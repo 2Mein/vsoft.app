@@ -19,17 +19,19 @@ class ThreadScreen extends React.Component<ThreadScreenProps> {
     _keyExtractor = (item: any, index: any) => item.id;
 
     _onPressItem = (id: any) => {
+        console.log('pressss')
         console.log(id)
     };
 
     _renderItem = (item: any) => (
         <ThreadListItem
-            thread={item}
+            onPress={this._onPressItem}
+            thread={item.item}
         />
     );
 
     render() {
-        console.log('Yo again')
+        console.log('Render ThreadScreen')
         const {threads} = this.props
         return (
             <View style={styles.container}>

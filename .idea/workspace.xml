@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2310e263-911f-484c-b184-720963962894" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/actions/ThreadActions.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/reducers/threadReducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ThreadListItem.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/actions/index.js" afterPath="$PROJECT_DIR$/lib/common/actions/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/actions/index.js.map" afterPath="$PROJECT_DIR$/lib/common/actions/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/api/index.js" afterPath="$PROJECT_DIR$/lib/common/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/api/index.js.map" afterPath="$PROJECT_DIR$/lib/common/api/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/reducers/index.js" afterPath="$PROJECT_DIR$/lib/common/reducers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/reducers/index.js.map" afterPath="$PROJECT_DIR$/lib/common/reducers/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/state.js.map" afterPath="$PROJECT_DIR$/lib/common/state.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/store.js" afterPath="$PROJECT_DIR$/lib/common/store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/store.js.map" afterPath="$PROJECT_DIR$/lib/common/store.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/components/index.js" afterPath="$PROJECT_DIR$/lib/components/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/components/index.js.map" afterPath="$PROJECT_DIR$/lib/components/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/actions/index.ts" afterPath="$PROJECT_DIR$/src/common/actions/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/api/index.ts" afterPath="$PROJECT_DIR$/src/common/api/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/reducers/index.ts" afterPath="$PROJECT_DIR$/src/common/reducers/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/state.ts" afterPath="$PROJECT_DIR$/src/common/state.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/store.ts" afterPath="$PROJECT_DIR$/src/common/store.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/reducers/threadReducer.ts" afterPath="$PROJECT_DIR$/src/common/reducers/threadReducer.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThreadListItem.tsx" afterPath="$PROJECT_DIR$/src/components/ThreadListItem.tsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThreadScreen.tsx" afterPath="$PROJECT_DIR$/src/components/ThreadScreen.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/index.ts" afterPath="$PROJECT_DIR$/src/components/index.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,55 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApiActions.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/actions/ApiActions.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadActions.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/actions/ThreadActions.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/api/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="49" column="20" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="49" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiReducer.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/reducers/ApiReducer.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="80" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="549">
+              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -106,11 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="threadReducer.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThreadScreen.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/ThreadScreen.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="threadReducer.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/reducers/threadReducer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            <state relative-caret-position="69">
+              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
@@ -118,32 +64,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="state.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/state.ts">
+      <file leaf-file-name="ThreadListItem.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ThreadListItem.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="store.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/store.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ColorActions.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/actions/ColorActions.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="600">
+              <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,8 +137,6 @@
         <option value="$PROJECT_DIR$/src/components/MainScreen.tsx" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/components/index.ts" />
-        <option value="$PROJECT_DIR$/src/components/ThreadScreen.tsx" />
-        <option value="$PROJECT_DIR$/src/components/ThreadListItem.tsx" />
         <option value="$PROJECT_DIR$/src/common/store.ts" />
         <option value="$PROJECT_DIR$/src/common/state.ts" />
         <option value="$PROJECT_DIR$/src/common/api/index.ts" />
@@ -218,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/common/reducers/index.ts" />
         <option value="$PROJECT_DIR$/src/common/actions/ThreadActions.ts" />
         <option value="$PROJECT_DIR$/src/common/reducers/threadReducer.ts" />
+        <option value="$PROJECT_DIR$/src/components/ThreadListItem.tsx" />
+        <option value="$PROJECT_DIR$/src/components/ThreadScreen.tsx" />
       </list>
     </option>
   </component>
@@ -332,50 +260,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="reducers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vsoft.app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vsoft.app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vsoft.app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vsoft.app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,12 +433,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510402905270</updated>
       <workItem from="1510402907458" duration="406000" />
-      <workItem from="1510408676161" duration="20143000" />
+      <workItem from="1510408676161" duration="22884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20549000" />
+    <option name="totallyTimeSpent" value="23290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1984" y="-4" width="1857" height="1085" extended-state="6" />
@@ -897,32 +781,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThreadScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#89#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThreadListItem.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -969,6 +833,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -977,10 +849,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/reducers/index.ts">
+    <entry file="file://$PROJECT_DIR$/src/common/state.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/reducers/ApiReducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="80" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -992,22 +872,6 @@
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/state.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/store.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,26 +887,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/api/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="49" selection-end-column="20" />
+        <state relative-caret-position="549">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/reducers/ApiReducer.ts">
+    <entry file="file://$PROJECT_DIR$/src/common/reducers/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="80" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="80" />
+        <state relative-caret-position="105">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ThreadListItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/reducers/threadReducer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="69">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ThreadScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
