@@ -29,33 +29,33 @@ interface MainScreenProps {
 }
 
 class MainScreen extends React.Component<MainScreenProps> {
-  handleToggleColor = () => {
-      const { dispatch } = this.props
-      dispatch(toggleColorThunk())
-  }
+    handleToggleColor = () => {
+        const {dispatch} = this.props
+        dispatch(toggleColorThunk())
+    }
 
-  handleFetchTimestamp = () => {
-    const { dispatch } = this.props
-    dispatch(fetchTimeStampAsync(City.Amsterdam))
-  }
+    handleFetchTimestamp = () => {
+        const {dispatch} = this.props
+        dispatch(fetchTimeStampAsync(City.Amsterdam))
+    }
 
-  render() {
-    console.log('Yo again')
-    const { backgroundColor, titleColor, useColor } = this.props
-    return (
-      <View style={useColor ? [styles.container, { backgroundColor: backgroundColor }] : styles.container}>
-        <Text style={useColor ? [styles.welcome, { color: titleColor }] : styles.welcome}>
-          Welcome to React Native!!!
-        </Text>
-        <Button onPress={this.handleToggleColor} title='Toggle Colors'/>
-        <Button onPress={this.handleFetchTimestamp} title='Fetch Amsterdam Timestamp'/>
-        <TimeStamp title='Timestamp in Amsterdam'/>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
-      </View>
-    )
-  }
+    render() {
+        console.log('Yo again')
+        const {backgroundColor, titleColor, useColor} = this.props
+        return (
+            <View style={useColor ? [styles.container, {backgroundColor: backgroundColor}] : styles.container}>
+                <Text style={useColor ? [styles.welcome, {color: titleColor}] : styles.welcome}>
+                    Welcome to React Native!!!
+                </Text>
+                <Button onPress={this.handleToggleColor} title='Toggle Colors'/>
+                <Button onPress={this.handleFetchTimestamp} title='Fetch Amsterdam Timestamp'/>
+                <TimeStamp title='Timestamp in Amsterdam'/>
+                <Text style={styles.instructions}>
+                    {instructions}
+                </Text>
+            </View>
+        )
+    }
 }
 
 const styles = StyleSheet.create({

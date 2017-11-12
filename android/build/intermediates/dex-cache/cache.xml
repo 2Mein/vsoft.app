@@ -39,21 +39,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_f4733535e5e229e1363c488fc2122c11fa79c4c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="e013739f7ddb6740bf196dc515d8999a6030f9ea">
         <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.49.3_31d74b109f8963efc40dd2b0e28253cb49b2e591.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_707e49784814219cae0772915b23b70a062dc79e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,12 +66,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_b7e460f7bd281d95aceb2aa5db232ca87367b70a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
         <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_78894ca81265374e4f0171c8c4bfdfcf55f5259d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_57f03c4874b4d2d7c0c7d3695bf2c4fa843e6c3d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,6 +102,105 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/mebusmein/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_cc064d87d247cf9324d2905031e7a5c112aa44f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_b671e5a685ad5deea0c5bf145aab019d493040d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_d4bec536a5386fd6854649475f8a6c60f31f5086.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_b37deb4dff0fa2573cc7e9f2c6710601e1d39fd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_f081f836c0bbd3e1f22ef56a586dae487d3a93eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_ca762d8e19c67a72f6095fab3a36e996a4750891.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_cf795ce2eb40cdef404fe44c82c348c0764d8f40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_28eb79c6959a31b17a796aa28a1ee0551f67d5c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_707e49784814219cae0772915b23b70a062dc79e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_62633adcfbab7bc44dc58b07520168236740f38b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_9b86ece4122ee63953f122467ead9f245e261d9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -93,12 +210,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mebusmein/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_cc064d87d247cf9324d2905031e7a5c112aa44f4.jar" />
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_80a0094d16f69b46ca1d0d0113f904ae7a3a9dcb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,12 +228,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_d4bec536a5386fd6854649475f8a6c60f31f5086.jar" />
+        sha1="e013739f7ddb6740bf196dc515d8999a6030f9ea">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.49.3_3c0044ef36c370e61a0ab2d03b863344741c43a3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,12 +264,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mebusmein/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_b37deb4dff0fa2573cc7e9f2c6710601e1d39fd1.jar" />
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_7b4295dd2f045b2b43791328fb67444f754fdf0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_e1957fb684d11d2f33b4aae3f5d53428a4c6bb89.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,30 +291,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_cf795ce2eb40cdef404fe44c82c348c0764d8f40.jar" />
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_7a650e9d5b8a3a165a5f175d2f17a0120d79173b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/mebusmein/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jar="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_ca762d8e19c67a72f6095fab3a36e996a4750891.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/mebusmein/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_28eb79c6959a31b17a796aa28a1ee0551f67d5c3.jar" />
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_b152858705ba31b923f27f9fa1a886fc982e47be.jar" />
     </item>
 
 </items>

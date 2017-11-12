@@ -1,4 +1,4 @@
-#Sat Nov 11 15:54:26 CET 2017
-base.0=/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Sun Nov 12 10:43:21 CET 2017
+base.0=/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/home/mebusmein/Workspace/react.template/rapideapp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/home/mebusmein/Workspace/vsoft.app/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

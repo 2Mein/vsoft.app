@@ -10,7 +10,7 @@ import {
 } from 'react-native'
 
 import { Provider } from 'react-redux'
-import { MainScreen } from './components'
+import { ThreadScreen } from './components'
 import { store } from './common'
 
 export default class App extends React.Component<object, object> {
@@ -19,7 +19,7 @@ export default class App extends React.Component<object, object> {
     return (
       <Provider store={ store }>
         <View style={{flex: 1}}>
-          <MainScreen />
+          <ThreadScreen />
        </View>
       </Provider>
     )
