@@ -2,72 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2310e263-911f-484c-b184-720963962894" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/data/thread/actions.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/data/thread/api.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/data/thread/reducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/services/api/index.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/services/session/actions.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/services/session/api.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/services/session/index.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/services/session/reducer.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/services/session/selectors.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/LoginScreen.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Navigator.tsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/actions/ApiActions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/actions/ApiActions.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/actions/ColorActions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/actions/ColorActions.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/actions/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/actions/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/api/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/reducers/ApiReducer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/reducers/ApiReducer.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/reducers/ColorReducer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/common/reducers/ColorReducer.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/components/MainScreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/components/MainScreen.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/components/TimeStamp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/components/TimeStamp.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/actions/ApiActions.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/actions/ColorActions.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/actions/ThreadActions.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/actions/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/api/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/reducers/ApiReducer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/reducers/ColorReducer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/reducers/threadReducer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/MainScreen.tsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/TimeStamp.tsx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/App.js" afterPath="$PROJECT_DIR$/lib/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/App.js.map" afterPath="$PROJECT_DIR$/lib/App.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ReactotronConfig.js" afterPath="$PROJECT_DIR$/lib/ReactotronConfig.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ReactotronConfig.js.map" afterPath="$PROJECT_DIR$/lib/ReactotronConfig.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/reducers/index.js" afterPath="$PROJECT_DIR$/lib/common/reducers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/reducers/index.js.map" afterPath="$PROJECT_DIR$/lib/common/reducers/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/state.js" afterPath="$PROJECT_DIR$/lib/common/state.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/state.js.map" afterPath="$PROJECT_DIR$/lib/common/state.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/store.js" afterPath="$PROJECT_DIR$/lib/common/store.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/common/store.js.map" afterPath="$PROJECT_DIR$/lib/common/store.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/components/index.js" afterPath="$PROJECT_DIR$/lib/components/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/components/index.js.map" afterPath="$PROJECT_DIR$/lib/components/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.tsx" afterPath="$PROJECT_DIR$/src/App.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReactotronConfig.ts" afterPath="$PROJECT_DIR$/src/ReactotronConfig.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/reducers/index.ts" afterPath="$PROJECT_DIR$/src/common/reducers/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/state.ts" afterPath="$PROJECT_DIR$/src/common/state.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/store.ts" afterPath="$PROJECT_DIR$/src/common/store.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ChatScreen.tsx" afterPath="$PROJECT_DIR$/src/components/ChatScreen.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThreadListItem.tsx" afterPath="$PROJECT_DIR$/src/components/ThreadListItem.tsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/data/thread/actions.ts" afterPath="$PROJECT_DIR$/src/common/data/thread/actions.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ThreadScreen.tsx" afterPath="$PROJECT_DIR$/src/components/ThreadScreen.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/index.ts" afterPath="$PROJECT_DIR$/src/components/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/declarations.d.ts" afterPath="$PROJECT_DIR$/src/declarations.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,8 +38,8 @@
       <file leaf-file-name="ThreadScreen.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ThreadScreen.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -138,13 +79,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actions.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="actions.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/data/thread/actions.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/services/session/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -240,11 +193,11 @@
         <option value="$PROJECT_DIR$/src/common/reducers/index.ts" />
         <option value="$PROJECT_DIR$/src/common/services/api/index.ts" />
         <option value="$PROJECT_DIR$/src/common/data/thread/reducer.ts" />
-        <option value="$PROJECT_DIR$/src/components/ThreadScreen.tsx" />
         <option value="$PROJECT_DIR$/src/common/state.ts" />
         <option value="$PROJECT_DIR$/src/components/ThreadListItem.tsx" />
         <option value="$PROJECT_DIR$/src/common/api/index.ts" />
         <option value="$PROJECT_DIR$/src/common/actions/ThreadActions.ts" />
+        <option value="$PROJECT_DIR$/src/components/ThreadScreen.tsx" />
         <option value="$PROJECT_DIR$/src/common/data/thread/actions.ts" />
       </list>
     </option>
@@ -338,6 +291,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vsoft.app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vsoft.app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vsoft.app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vsoft.app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,12 +539,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510402905270</updated>
       <workItem from="1510402907458" duration="406000" />
-      <workItem from="1510408676161" duration="51394000" />
+      <workItem from="1510408676161" duration="52598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51800000" />
+    <option name="totallyTimeSpent" value="53004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1984" y="-4" width="1857" height="1085" extended-state="6" />
@@ -919,16 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/services/session/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="63" column="13" lean-forward="false" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/services/session/reducer.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -953,16 +944,6 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ThreadScreen.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1035,12 +1016,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ThreadScreen.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/data/thread/actions.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/services/session/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

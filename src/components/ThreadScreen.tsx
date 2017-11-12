@@ -9,12 +9,12 @@ import {State, Thread} from '../common/state'
 import {connect} from 'react-redux'
 import {Dispatch} from 'redux'
 import {ThreadListItem} from './'
-import {getThreads, getThreadsThunk} from "../common/data/thread/actions";
+import {getThreadsThunk} from "../common/data/thread/actions";
 
 interface ThreadScreenProps {
     threads: Thread[],
     navigation: any,
-    dispatch: Dispatch<State>
+    dispatch: Dispatch<{}>
 }
 
 class ThreadScreen extends React.Component<ThreadScreenProps> {
@@ -23,7 +23,7 @@ class ThreadScreen extends React.Component<ThreadScreenProps> {
         header: null
     };
 
-    componentWillMount = () => {
+    componentWillMount() {
         const {dispatch} = this.props
         dispatch(getThreadsThunk())
     }

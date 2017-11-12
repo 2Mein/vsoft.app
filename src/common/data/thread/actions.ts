@@ -7,7 +7,7 @@ const threadActionCreator = actionCreatorFactory('thread')
 
 export const updateThreads = threadActionCreator<any>('UPDATE');
 
-export const getThreads = threadActionCreator.async<null, null, Thread[], Error>('GET');
+export const getThreads = threadActionCreator.async<void, void, Thread[], Error>('GET');
 
 export const getThreadsThunk = bindThunkAction(getThreads,
     async (params, dispatch, getState, extraArg) => {
