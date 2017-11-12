@@ -6,22 +6,32 @@
 
 import * as React from 'react'
 import {
-  View
+    View
 } from 'react-native'
 
-import { Provider } from 'react-redux'
-import { ThreadScreen } from './components'
-import { store } from './common'
+import {Provider} from 'react-redux'
+import {ThreadScreen, ChatScreen} from './components'
+import {store} from './common'
+import {StackNavigator} from "react-navigation";
+
+const ThreadStack = StackNavigator({
+    List: {
+        screen: ThreadScreen,
+    },
+    Chat: {
+        screen: ChatScreen,
+    },
+});
+
 
 export default class App extends React.Component<object, object> {
-  render() {
-    console.log('Yo again')
-    return (
-      <Provider store={ store }>
-        <View style={{flex: 1}}>
-          <ThreadScreen />
-       </View>
-      </Provider>
-    )
-  }
+    render() {
+        return (
+            <Provider store={ store }>
+                <View style={{flex: 1}}>
+                    <ThreadStack />
+                </View>
+            </Provider>
+        )
+    }
 }

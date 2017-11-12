@@ -18,7 +18,7 @@ export default class ThreadListItem extends React.Component<ThreadScreenProps> {
         const {thread, onPress} = this.props
 
         return (
-            <TouchableHighlight onPress={()=>onPress(thread.id)}>
+            <TouchableHighlight onPress={()=>onPress(thread)}>
                 <View style={styles.container}>
                     <Image style={styles.image} source={{uri: 'http://placehold.it/100x100'}}/>
                     <View style={styles.textContainer}>

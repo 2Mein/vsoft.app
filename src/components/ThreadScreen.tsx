@@ -9,18 +9,28 @@ import {State, Thread} from '../common/state'
 import {connect} from 'react-redux'
 import {Dispatch} from 'redux'
 import {ThreadListItem} from './'
+import {NavigationAction} from "react-navigation";
 
 interface ThreadScreenProps {
     threads: Thread[],
+    navigation: any,
     dispatch: Dispatch<State>
 }
 
 class ThreadScreen extends React.Component<ThreadScreenProps> {
+    static navigationOptions = {
+        title: 'Threads',
+        header: null
+    };
+
     _keyExtractor = (item: any, index: any) => item.id;
 
-    _onPressItem = (id: any) => {
-        console.log('pressss')
-        console.log(id)
+    _onPressItem = (thread: any) => {
+        const {navigation} = this.props
+        const {navigate} = navigation
+        navigate('Chat', {
+            thread: thread
+        });
     };
 
     _renderItem = (item: any) => (
