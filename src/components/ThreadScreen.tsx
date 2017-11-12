@@ -2,12 +2,13 @@ import * as React from 'react'
 import {
     View,
     Text,
-    StyleSheet,
+    StyleSheet, FlatList,
 } from 'react-native'
 
 import {State, Thread} from '../common/state'
 import {connect} from 'react-redux'
 import {Dispatch} from 'redux'
+import {ThreadListItem} from './'
 
 interface ThreadScreenProps {
     threads: Thread[],
@@ -15,17 +16,28 @@ interface ThreadScreenProps {
 }
 
 class ThreadScreen extends React.Component<ThreadScreenProps> {
-    HandleThreadClick = (thread: Thread) => {
+    _keyExtractor = (item: any, index: any) => item.id;
 
-    }
+    _onPressItem = (id: any) => {
+        console.log(id)
+    };
+
+    _renderItem = (item: any) => (
+        <ThreadListItem
+            thread={item}
+        />
+    );
 
     render() {
         console.log('Yo again')
+        const {threads} = this.props
         return (
             <View style={styles.container}>
-                <Text>
-                    Welcome to React Native!!!
-                </Text>
+                <FlatList
+                    data={threads}
+                    keyExtractor={this._keyExtractor}
+                    renderItem={this._renderItem}
+                />
             </View>
         )
     }

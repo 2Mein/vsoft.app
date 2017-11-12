@@ -1,4 +1,4 @@
-import { City, Time } from '../state'
+import {City, Thread, Time} from '../state'
 
 const apiUrl = 'http://www.convert-unix-time.com/api?timestamp=now'
 
@@ -35,6 +35,32 @@ export async function getTimeStamp(city: City = City.Amsterdam): Promise<Time> {
     } else {
         throw new Error('No timestamp data in response')
     }
+}
+
+export async function getThreads(){
+    await timeout()
+    return [
+        {
+            id:'rbkdvcfvhdcyhschv',
+            subject:'Thread 1'
+        } as Thread,
+        {
+            id:'rbkdvcfvhdcyhschv',
+            subject:'Thread 2'
+        } as Thread,
+        {
+            id:'rbkdvcfvhdcyhschv',
+            subject:'Thread 3'
+        } as Thread,
+        {
+            id:'rbkdvcfvhdcyhschv',
+            subject:'Thread 4'
+        } as Thread,
+        {
+            id:'rbkdvcfvhdcyhschv',
+            subject:'Thread 5'
+        } as Thread,
+    ]
 }
 
 function timeout() {

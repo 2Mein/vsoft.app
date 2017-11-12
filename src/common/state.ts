@@ -26,7 +26,6 @@ export interface ColorConfig {
 export interface Thread {
     id: string,
     subject: string,
-    updated_at: Date
 }
 
 export const reddish = { main: '#d00', title: '#888' } as Color
