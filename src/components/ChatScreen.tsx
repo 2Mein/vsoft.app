@@ -4,15 +4,11 @@ import {
     StyleSheet, Animated,
 } from 'react-native'
 
-import {State, Thread} from '../common/state'
-import {connect} from 'react-redux'
-import {Dispatch} from 'redux'
 import {GiftedChat} from 'react-native-gifted-chat'
 import Text = Animated.Text;
 
 interface ChatScreenProps {
     navigation: any,
-    dispatch: Dispatch<State>
 }
 
 export default class ChatScreen extends React.Component<ChatScreenProps> {

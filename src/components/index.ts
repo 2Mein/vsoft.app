@@ -1,6 +1,5 @@
-export {default as MainScreen} from './MainScreen'
-export {default as TimeStamp} from './TimeStamp'
-
+export {default as Navigator} from './Navigator'
+export {default as LoginScreen} from './LoginScreen'
 
 export {default as ThreadScreen} from './ThreadScreen'
 export {default as ThreadListItem} from './ThreadListItem'

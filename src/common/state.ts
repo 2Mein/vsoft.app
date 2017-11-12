@@ -1,39 +1,21 @@
-export enum City {
-    Amsterdam = 'amsterdam',
-    London = 'londen',
-    Moskou = 'moscow',
-    Tokio = 'tokyo'
-}
+import {Session} from "./services/session/index";
+export interface Auth {
+    _token:string
 
-export interface Time {
-    timestamp: number,
-    seconds: number,
-    location: City,
-    loading: boolean,
-    error?: Error
-}
-
-export interface Color {
-    main: string,
-    title: string
-}
-
-export interface ColorConfig {
-    useColor: boolean,
-    color: Color,
 }
 
 export interface Thread {
-    id: string,
+    avatar: string,
+    object: string,
+    _id: number,
     subject: string,
+    last_read: number,
+    join_date: number,
+    created_at: number,
+    updated_at: number
 }
-
-export const reddish = { main: '#d00', title: '#888' } as Color
-export const greenish = { main: '#0f0', title: '#000' } as Color
-export const blueish = { main: '#00b', title: '#fff' } as Color
 
 export interface State {
     threads:Thread[],
-    time: Time,
-    colorConfig: ColorConfig,
+    session:Session
 }

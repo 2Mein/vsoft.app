@@ -9,7 +9,7 @@ import {State, Thread} from '../common/state'
 import {connect} from 'react-redux'
 import {Dispatch} from 'redux'
 import {ThreadListItem} from './'
-import {NavigationAction} from "react-navigation";
+import {getThreads, getThreadsThunk} from "../common/data/thread/actions";
 
 interface ThreadScreenProps {
     threads: Thread[],
@@ -23,7 +23,12 @@ class ThreadScreen extends React.Component<ThreadScreenProps> {
         header: null
     };
 
-    _keyExtractor = (item: any, index: any) => item.id;
+    componentWillMount = () => {
+        const {dispatch} = this.props
+        dispatch(getThreadsThunk())
+    }
+
+    _keyExtractor = (item: any, index: any) => item._id;
 
     _onPressItem = (thread: any) => {
         const {navigation} = this.props

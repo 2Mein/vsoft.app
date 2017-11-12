@@ -1,11 +1,9 @@
-import { apiReducer } from './ApiReducer'
-import { colorReducer } from './ColorReducer'
-import { State } from '../state'
-import { combineReducers } from 'redux'
-import {threadReducer} from "./threadReducer";
+import {State} from '../state'
+import {combineReducers} from 'redux'
+import {sessionReducer} from "../services/session/reducer";
+import {threadReducer} from "../data/thread/reducer";
 
-export const rootReducer = combineReducers<State>( {
-  time: apiReducer,
-  colorConfig: colorReducer,
-  threads: threadReducer
+export const rootReducer = combineReducers<State>({
+    threads: threadReducer,
+    session: sessionReducer
 })
