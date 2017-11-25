@@ -16,6 +16,10 @@ export interface Thread {
 }
 
 export interface State {
-    threads:Thread[],
-    session:Session
+    data: {
+        threads: Thread[],
+    },
+    service: {
+        session: Session
+    }
 }
