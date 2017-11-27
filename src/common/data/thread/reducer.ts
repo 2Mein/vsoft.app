@@ -1,8 +1,7 @@
-import {reducerWithInitialState} from 'typescript-fsa-reducers'
-import {updateThreads} from "./actions";
+import {reducerWithInitialState} from "typescript-fsa-reducers";
+import {getThreadList} from "./actions";
 
 export const threadReducer = reducerWithInitialState({})
-    .case(updateThreads, (state, threads) => {
-        console.log(threads);
-        return ([...threads.data])
+    .case(getThreadList.done, (state, threads) => {
+        return [...state.data.threads,...threads.data]
     })

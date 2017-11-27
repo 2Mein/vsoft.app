@@ -1,5 +1,5 @@
 import {applyMiddleware} from 'redux'
-import {rootReducer} from './reducers'
+import {rootReducer} from './reducer'
 import thunk from 'redux-thunk'
 import Reactotron from 'reactotron-react-native'
 

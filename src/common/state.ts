@@ -1,7 +1,6 @@
 import {Session} from "./services/session/index";
 export interface Auth {
     _token:string
-
 }
 
 export interface Thread {
@@ -15,7 +14,15 @@ export interface Thread {
     updated_at: number
 }
 
+export interface Message {
+
+}
+
 export interface State {
-    threads:Thread[],
-    session:Session
+    data: {
+        threads: Thread[]
+    },
+    service: {
+        session: Session
+    }
 }

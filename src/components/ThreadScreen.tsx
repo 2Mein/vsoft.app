@@ -9,7 +9,7 @@ import {State, Thread} from '../common/state'
 import {connect} from 'react-redux'
 import {Dispatch} from 'redux'
 import {ThreadListItem} from './'
-import {getThreadsThunk} from "../common/data/thread/actions";
+import {getThreadList} from "../common/data/thread";
 
 interface ThreadScreenProps {
     threads: Thread[],
@@ -25,7 +25,7 @@ class ThreadScreen extends React.Component<ThreadScreenProps> {
 
     componentWillMount() {
         const {dispatch} = this.props
-        dispatch(getThreadsThunk())
+        dispatch(getThreadList())
     }
 
     _keyExtractor = (item: any, index: any) => item._id;
